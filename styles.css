@@ -1,1 +1,62 @@
 /* USE CSS GRID AND FLEX HERE */
+
+#cap{
+ text-transform: capitalize; 
+}
+
+
+.a{
+    background-color: green;
+    display: flex;
+    
+    height: 150px;
+
+   
+
+    
+}
+
+.b{
+    background-color: yellow;
+    display: flex;
+    
+    height: 150px;
+    
+    
+}
+
+.c{
+    background-color:red;
+    display: flex;
+ 
+    height: 150px;
+}
+
+.part1{
+ background-color: dodgerblue;
+
+}
+
+.part2{
+position:static;
+display:flex;
+width:100%;
+height:150px;
+vertical-align:top;
+    
+}
+
+    
+
+
+@media(max-width:600px){
+
+
+
+.part3{
+background-color:teal;
+width:100%;
+height: 40px;
+text-align: center;
+
+}
