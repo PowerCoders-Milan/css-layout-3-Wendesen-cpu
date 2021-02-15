@@ -5,36 +5,43 @@
 }
 
 
+.container{
+        display: flex;
+        border: 0px solid black;
+        flex-direction:row;
+        flex-wrap: wrap;
+        
+        }
+     
 .a{
-    background-color: green;
     display: flex;
-    
-    height: 150px;
-
-   
-
-    
+    background-color: green;
+    flex:1;
+    width:100px;
+    flex-wrap: wrap;
 }
 
 .b{
-    background-color: yellow;
     display: flex;
-    
-    height: 150px;
-    
+    background-color: yellow;
+    flex:1;
+    width:100px;
+    flex-wrap: wrap;
     
 }
 
 .c{
-    background-color:red;
     display: flex;
- 
-    height: 150px;
+    background-color:red;
+    flex:1;
+    width:100px;
+    flex-wrap: wrap;
 }
+
 
 .part1{
  background-color: dodgerblue;
-
+ 
 }
 
 .part2{
@@ -49,7 +56,7 @@ vertical-align:top;
     
 
 
-@media(max-width:600px){
+
 
 
 
